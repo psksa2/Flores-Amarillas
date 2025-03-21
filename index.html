@@ -1,51 +1,51 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Flores Amarillas &lt;3</title>
-    <link rel="stylesheet" href="Css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&display=swap" rel="stylesheet">
-    <!--
-        Codigo By: MartL7
-    -->
+  <title>Flor y tallo</title>
+  <style>
+    /* Estilos para la flor */
+    .flor {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #ff69b4;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Estilos para el tallo */
+    .tallo {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 10px;
+      height: 200px;
+      background-color: #3e8e41;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Estilos para las hojas */
+    .hoja {
+      position: absolute;
+      top: 80%;
+      left: 45%;
+      transform: translate(-50%, -50%);
+      width: 50px;
+      height: 50px;
+      background-color: #3e8e41;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+  </style>
 </head>
 <body>
-
-    <div class="Contenedor-Binicio">
-        <button class="Button" id="BVer"> Clicka aqui </button>
-    </div>
-
-    <div class="Con-Emergente">
-        <div id="resultado" class="cua">
-            <p id="res">
-                Hola, antes de iniciar, solo quiero recordarte que eres 
-                muy especial para mí y gracias por todo. &lt;3
-            </p>    
-            <button id="BotonCerrar" class="Button">Cerrar</button>
-        </div>
-    </div>
-
-    <div class="Con-2">
-        <h1 id="Titulo"> Elije una Opcion </h1>
-        <div class="Con">
-            <button class="Button" id="B1"> 1 Flor </button>
-            <button class="Button" id="B12"> 12 Flores :) </button>
-        </div>
-    </div>
-
-    <main class="Contenedor">
-        <canvas id="Flor" class="Flor" width="800" height="600"></canvas>
-
-        <div class="Texto">
-            <h2 id="Text">Para la niña mas Linda del Mundo.</h2>
-        </div>
-
-    </main>
-
-    <script src="Js/app.js"></script>
-    <script src="Js/Dis.js"></script>
+  <div class="flor"></div>
+  <div class="tallo"></div>
+  <div class="hoja"></div>
 </body>
 </html>
